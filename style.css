@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    background-color: FFD2D2;
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+         url("GOTHIC.woff") format("woff");}
+.cont1{
+
+}     
+.ph1{
+    margin-left: 1%;
+    margin-top: 2%;
+}   
+.ph2{
+    margin-left: 4%;
+}
+p{
+    font-family: 'Russo One', sans-serif;
+Font-size: 48px;
+Line-height: 58px;
+Line-height: 100%;
+font-weight: 800;
+}
+.txt1{
+    width: 55%;
+    position: absolute;
+    margin-left: 40%;
+}
+.txt2{
+    width: 55%;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+.ph3{
+    margin-top: 10%;
+    margin-left: 1%;
+}
+
+.ph4{
+    margin-left: 7%;
+    margin-top: -2%;
+}
+.ph5{
+    margin-left: 58%;
+
+}
+.txt3{
+    width: 55%;
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 3%;
+    line-height:2em
+;}
+.ph6{
+    margin-left: 10%;
+    position: absolute;
+    margin-top: -19%;
+}
+.txt4{
+    width: 50%;
+    margin-left: 58%;
+    line-height:2em;
+    margin-top: -1%;
+
+
+}
+.txt5{
+   margin-left: 47%;
+   margin-top: 5%; 
+}
+.ph7{
+    margin-top: 7%;
+    margin-left: 1%;
+}
+.ph8{
+    margin-left: 1%;
+}
+.ph9{
+    margin-left: 1%;
+}
+.ph10{
+    margin-left: 1%;
+}
+.txt6{
+    position: absolute;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 7%;
+}
+.txt7{
+    position: absolute;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 19%;
+}
+.txt8{
+    position: absolute;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 25%;
+}
+.txt9{
+    position: absolute;
+    margin-left: 46%;
+    font-size: 36px;
+    margin-top: -0.5%;
+}
+.ph11{
+    margin-top: 5%;
+    margin-left: 1%;
+}
+.ph12{
+    margin-left: 1%;
+    margin-top: 3%;
+}
+.txt10{
+    width: 60%;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 40%;
+}
+.txt11{
+    width: 50%;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 40%;
+}
+.txt12{
+    text-align: center;
+    font-size: 50px;
+}
+.ph13{
+    margin-left: 7%;
+}
+.flip-container {
+	perspective: 1000;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+	width: 350px;
+	height: 350px;
+}
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front, .back {
+	backface-visibility: hidden;
+ 	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front {
+	z-index: 2;
+}
+.front img, .back img{
+	width: 100%;
+	height: auto;
+}
+.back {
+	transform: rotateY(180deg);
+}
+.ehh{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.vid{
+    height: 74%;
+    margin-left: 35%;
+    margin-top: -25%;
+}
+.vid2{
+    height: 74%;
+    margin-left: 68%;
+    margin-top: -39%;
+}
+.ph14{
+    margin-top: 5%;
+}
+.txt20{
+    width: 50%;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 42%;
+}
+#id_div{
+    position: absolute;
+    margin-left: 3%;
+    font-size: 30px;
+}
+#id_div2{
+    position: absolute;
+    margin-left: 60%;
+    font-size: 30px;
+}
+.text{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 13%;
+}
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  P::first-letter{
+      color: black
+  }
+span{
+    color: brown;
+}
